@@ -34,7 +34,8 @@ def get():
     return str(current_codes[-1])
     # import random
     # return str(random.random())
+import os
 
-
+port = int(os.getenv("VCAP_APP_PORT"))
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=8000)
+    app.run(host='0.0.0.0', port=port)
