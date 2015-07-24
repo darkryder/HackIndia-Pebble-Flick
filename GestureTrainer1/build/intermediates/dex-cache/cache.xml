@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/darkryder/Desktop/GestureTrainer1/app/build/intermediates/exploded-aar/com.getpebble/pebblekit/3.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="bd72bf60a6e56573eecb0e6abf419fac2b1fc1e6">
+        <dex dex="/home/darkryder/Desktop/GestureTrainer1/app/build/intermediates/pre-dexed/debug/classes-fda07375598a5c56c5a04694c063a4f8d4c286b9.jar" />
+    </item>
+
+</items>

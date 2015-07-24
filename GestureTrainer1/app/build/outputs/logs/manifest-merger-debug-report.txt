@@ -1,0 +1,85 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:2
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:3:36
+	android:versionCode
+		ADDED from AndroidManifest.xml:3:63
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+application
+ADDED from AndroidManifest.xml:4:2
+	android:label
+		ADDED from AndroidManifest.xml:4:45
+	android:icon
+		ADDED from AndroidManifest.xml:4:15
+activity#de.dfki.android.gestureTrainer.GestureTrainer
+ADDED from AndroidManifest.xml:5:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:6:40
+	android:label
+		ADDED from AndroidManifest.xml:5:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:6:4
+	android:name
+		ADDED from AndroidManifest.xml:7:4
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:8:4
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:9:5
+	android:name
+		ADDED from AndroidManifest.xml:9:13
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:10:5
+	android:name
+		ADDED from AndroidManifest.xml:10:15
+service#de.dfki.ccaal.gestures.GestureRecognitionService
+ADDED from AndroidManifest.xml:13:3
+	android:label
+		ADDED from AndroidManifest.xml:14:27
+	android:enabled
+		ADDED from AndroidManifest.xml:14:4
+	android:name
+		ADDED from AndroidManifest.xml:13:12
+intent-filter#de.dfki.ccaal.gestures.GESTURE_RECOGNIZER
+ADDED from AndroidManifest.xml:16:4
+action#de.dfki.ccaal.gestures.GESTURE_RECOGNIZER
+ADDED from AndroidManifest.xml:17:5
+	android:name
+		ADDED from AndroidManifest.xml:17:13
+activity#de.dfki.android.gestureTrainer.GestureOverview
+ADDED from AndroidManifest.xml:20:3
+	android:name
+		ADDED from AndroidManifest.xml:20:13
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from AndroidManifest.xml:22:2
+	android:name
+		ADDED from AndroidManifest.xml:22:19
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:23:2
+	android:name
+		ADDED from AndroidManifest.xml:23:19
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from AndroidManifest.xml:24:2
+	android:name
+		ADDED from AndroidManifest.xml:24:19
+uses-sdk
+ADDED from AndroidManifest.xml:25:2
+MERGED from com.getpebble:pebblekit:3.0.0:7:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:25:12
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:26:2
+	android:name
+		ADDED from AndroidManifest.xml:26:19
